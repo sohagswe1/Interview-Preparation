@@ -1,47 +1,14 @@
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int main(){
-int day;
-cin >>day;
-switch (day)        
-{
-case 1:
-cout<<"Monday"<<endl;
-    
-    break;
-    case 2:
-cout<<"Tuesday"<<endl;
-    
-    break;
-    case 3:
-cout<<"Wednesday"<<endl;
-    
-    break;
-    case 4:
-cout<<"Thursday"<<endl;
-    
-    break;
-    case 5:
-cout<<"Friday"<<endl;
-
-    break;
-    case 6:
-cout<<"Saturday"<<endl;
-    
-    break;
-    case 7:
-cout<<"Sunday"<<endl;
-    
-    break;
-
-default:
-cout<<"Invalid"<<endl;
-    break;
-}
-
+int a;
+cin >> a;
+if(a>=35&& a<50) cout<<"grade D"<<endl;
+else if(a>=50 && a<70) cout<<"grade C "<<endl;
+else if (a>=70 && a<90)cout<<"grade B"<<endl;
+else if(a>=90)cout<<"grade A"<<endl;
+else cout<<
 
 }
