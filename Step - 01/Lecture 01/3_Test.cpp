@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
 
-cout<<"" << endl;
+cout<<"ok" << endl;
 
 
-cout<<
+
     return 0;
 }
