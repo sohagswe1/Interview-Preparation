@@ -1,14 +1,15 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main(){
-    int n;
-    cin >> n;
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            cout<<"*";
-        }cout<<endl;
-    }
+void changeValue(int x) {
+    x = 100;
+    cout << "Inside function: x = " << x << endl;
+}
 
+int main() {
+    int num = 50;
+    cout << "Before function call: num = " << num << endl;
+    changeValue(num);
+    cout << "After function call: num = " << num << endl;
     return 0;
 }
